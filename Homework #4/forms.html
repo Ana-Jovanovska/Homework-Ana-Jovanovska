@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Dado Tea Lunch Special</h1>
+    <p>Monday through Friday</p>
+    <p>11am - 3pm</p>
+    <p>$9.95 plus tax</p>
+    <p>Includes sandwich , snack , and drink</p>
+    <fieldset>
+        <legend>Order Information</legend>
+        <br />
+        <label for="name"><strong>Name</strong></label>
+        <br />
+        <input type="text" name="name" id="name" />
+        <br /><br />
+        <form action="" method="POST">
+            <input type="radio" name="genre" value="rock" id="rock" />
+            <label for="rock">Here</label>
+            <br />
+            <input type="radio" name="genre" value="to go " id="to go" />
+            <label for="pop">To Go</label>
+        </form>
+        <br />
+
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Sandwiches</legend>
+        <br />
+        <label for="name"><strong>Monday</strong></label>
+        <form action="" method="POST">
+            <input type="radio" name="genre" value="tomato mozzarella" id="tomato mozzarella" />
+            <label for="tomato mozzarella">Tomato Mozzarella</label>
+            <br />
+            <input type="radio" name="genre" value="chicken salad" id="chicken salad" />
+            <label for="chicken salad">Chicken Salad</label>
+        </form>
+        <br />
+        <label for="name"><strong>Tuesday</strong></label>
+        <form action="" method="POST">
+            <input type="radio" name="genre" value="greek salad wrap" id="greek salad wrap" />
+            <label for="greek salad wrap">Greek Salad Wrap</label>
+            <br />
+            <input type="radio" name="genre" value="toto wrap" id="toto wrap" />
+            <label for="toto wrap">Toto Wrap</label>
+        </form>
+        <br />
+        <label for="name"><strong>Wednesday</strong></label>
+        <form action="" method="POST">
+            <input type="radio" name="genre" value="red pepper hummus" id="red pepper hummus" />
+            <label for="red pepper hummus">Red Pepper Hummus</label>
+            <br />
+            <input type="radio" name="genre" value="roasted turkey" id="roasted turkey" />
+            <label for="roasted turkey">Roasted Turkey</label>
+        </form>
+        <br />
+        <label for="name"><strong>Thursday</strong></label>
+        <form action="" method="POST">
+            <input type="radio" name="genre" value="carrot-ginger hummus wrap" id="carrot-ginger hummus wrap" />
+            <label for="carrot-ginger hummus wrap">Carrot-Ginger Hummus Wrap</label>
+            <br />
+            <input type="radio" name="genre" value="egg salad" id="egg salad" />
+            <label for="egg salad">Egg Salad</label>
+        </form>
+        <br />
+        <label for="name"><strong>Friday</strong></label>
+        <form action="" method="POST">
+            <input type="radio" name="genre" value="dado wrap" id="dado wrap" />
+            <label for="dado wrap">Dado Wrap</label>
+            <br />
+            <input type="radio" name="genre" value="tuna salad" id="tuna salad" />
+            <label for="tuna salad">Tuna Salad</label>
+        </form>
+        <br />
+        <hr />
+        <form action="" method="POST">
+            <br />
+            <input type="checkbox" name="service" value="gluten free bread (75&cent extra)" checked="checked"
+                id="gluten free bread (75&cent extra)" />
+            <label for="gluten free bread (75&cent extra)">Gluten Free Bread (75&cent; extra)</label>
+        </form>
+        <br />
+
+    </fieldset>
+    <fieldset>
+        <legend>Snack</legend>
+        <br />
+        <label for="name"><strong>Snack</strong></label>
+        <form action="" method="POST">
+            <input type="radio" name="genre" value="apple" id="apple" />
+            <label for="apple">Apple</label>
+            <br />
+            <input type="radio" name="genre" value="banana" id="banana" />
+            <label for="banana">Banana</label>
+            <br />
+            <input type="radio" name="genre" value="potato chips" id="potato chips" />
+            <label for="potato chips">Potato Chips</label>
+        </form>
+        <br />
+
+    </fieldset>
+    <fieldset>
+        <legend>Drink</legend>
+        <br />
+        <label for="name"><strong>Drinks</strong></label>
+        <br />
+        <form action="" method="POST">
+
+            <select name="devices" id="devices">
+                <option value="ipod" selected>Hot Black Tea - Keemun</option>
+                <option value="coffee or iced coffee">Coffee or Iced Coffee</option>
+                <option value="organic peppermint">Ogranic Peppermint</option>
+                <option value="hot or iced sencha green tea">Hot or Iced Sencha Green Tea</option>
+                <option value="hot or iced keemun black">Hot or Iced Keemun Black </option>
+            </select>
+        </form>
+        <br />
+        <hr />
+        <form action="" method="POST">
+            <br />
+            <input type="checkbox" name="service" value="large drink (75&cent extra)" checked="checked"
+                id="large drink (75&cent extra)" />
+            <label for="large drink (75&cent extra)">Large drink (75&cent; extra)</label>
+        </form>
+        <br />
+
+
+
+    </fieldset>
+    <br />
+    <input type="submit" value="Place Order" />
+
+
+</body>
+
+</html>

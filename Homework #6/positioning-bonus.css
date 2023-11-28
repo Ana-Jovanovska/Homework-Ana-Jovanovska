@@ -1,0 +1,231 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+.block1 {
+  background-color: grey;
+  color: black;
+
+  border-bottom: 10px solid black;
+  height: 60px;
+  width: 140px;
+  position: absolute;
+  left: 10%;
+  top: 110px;
+}
+.block2 {
+  background-color: antiquewhite;
+  columns: black;
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
+  height: 60px;
+  width: 220px;
+  position: absolute;
+  left: 18%;
+  top: 110px;
+}
+.block3 {
+  background-color: goldenrod;
+  columns: black;
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
+  border-right: 10px solid black;
+  height: 60px;
+  width: 175px;
+  position: absolute;
+  left: 32%;
+  top: 110px;
+}
+.block4 {
+  background-color: antiquewhite;
+  columns: black;
+  border-bottom: 10px solid black;
+  height: 130px;
+  width: 70px;
+  position: absolute;
+  left: 10%;
+  top: 170px;
+}
+.block5 {
+  background-color: red;
+  columns: black;
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
+  height: 270px;
+  width: 285px;
+  position: absolute;
+  left: 14%;
+  top: 170px;
+}
+.block6 {
+  background-color: goldenrod;
+  columns: black;
+  border-bottom: 10px solid black;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  height: 130px;
+  width: 175px;
+  position: absolute;
+  left: 32%;
+  top: 170px;
+}
+.block7 {
+  background-color: grey;
+  columns: black;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+  height: 220px;
+  width: 70px;
+  position: absolute;
+  left: 10%;
+  top: 300px;
+}
+.block8 {
+  background-color: goldenrod;
+  columns: black;
+  border-right: 10px solid black;
+  height: 120px;
+  width: 70px;
+  position: absolute;
+  left: 10%;
+  top: 520px;
+}
+.block9 {
+  background-color: brown;
+  columns: black;
+  border-bottom: 10px solid black;
+  border-left: 10px solid black;
+  height: 140px;
+  width: 150px;
+  position: absolute;
+  left: 14%;
+  top: 440px;
+}
+.block10 {
+  background-color: antiquewhite;
+  columns: black;
+  border-left: 10px solid black;
+
+  height: 60px;
+  width: 149px;
+  position: absolute;
+  left: 14%;
+  top: 580px;
+}
+.block11 {
+  background-color: grey;
+  columns: black;
+  border-left: 10px solid black;
+
+  border-bottom: 10px solid black;
+  height: 70px;
+  width: 147px;
+  position: absolute;
+  left: 23%;
+  top: 440px;
+}
+.block12 {
+  background-color: antiquewhite;
+  columns: black;
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
+  border-right: 10px solid black;
+  height: 70px;
+  width: 147px;
+  position: absolute;
+  left: 23%;
+  top: 510px;
+}
+.block13 {
+  background-color: grey;
+  columns: black;
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
+  border-right: 10px solid black;
+  height: 140px;
+  width: 93px;
+  position: absolute;
+  left: 32%;
+  top: 300px;
+}
+.block14 {
+  background-color: antiquewhite;
+  columns: black;
+  border-bottom: 10px solid black;
+
+  border-right: 10px solid black;
+  height: 140px;
+  width: 83px;
+  position: absolute;
+  left: 38%;
+  top: 300px;
+}
+.block15 {
+  background-color: antiquewhite;
+  columns: black;
+  border-right: 10px solid black;
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
+  height: 70px;
+  width: 175px;
+  position: absolute;
+  left: 32%;
+  top: 440px;
+}
+.block16 {
+  background-color: blue;
+  columns: black;
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
+  border-right: 10px solid black;
+  height: 110px;
+  width: 175px;
+  position: absolute;
+  left: 32%;
+  top: 510px;
+}
+.block17 {
+  background-color: brown;
+  columns: black;
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
+  height: 40px;
+  width: 139px;
+  position: absolute;
+  left: 23%;
+  top: 580px;
+}
+.block18 {
+  background-color: antiquewhite;
+  columns: black;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  height: 20px;
+  width: 313px;
+  position: absolute;
+  left: 23%;
+  top: 620px;
+}
+.block19 {
+  background-color: antiquewhite;
+  columns: black;
+  border-bottom: 10px solid black;
+  height: 400px;
+  width: 40px;
+  position: absolute;
+  left: 43.4%;
+  top: 110px;
+}
+.block20 {
+  background-color: red;
+  columns: black;
+  height: 130px;
+  width: 40px;
+  position: absolute;
+  left: 43.4%;
+  top: 510px;
+}
