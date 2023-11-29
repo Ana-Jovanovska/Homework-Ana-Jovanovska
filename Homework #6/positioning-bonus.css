@@ -6,10 +6,14 @@
 body {
   position: relative;
 }
+.boxes {
+  height: 800px;
+  width: 800px;
+  position: relative;
+}
 .block1 {
   background-color: grey;
   color: black;
-
   border-bottom: 10px solid black;
   height: 60px;
   width: 140px;
@@ -25,7 +29,7 @@ body {
   height: 60px;
   width: 220px;
   position: absolute;
-  left: 18%;
+  left: 27%;
   top: 110px;
 }
 .block3 {
@@ -37,7 +41,7 @@ body {
   height: 60px;
   width: 175px;
   position: absolute;
-  left: 32%;
+  left: 54%;
   top: 110px;
 }
 .block4 {
@@ -56,9 +60,9 @@ body {
   border-left: 10px solid black;
   border-bottom: 10px solid black;
   height: 270px;
-  width: 285px;
+  width: 288px;
   position: absolute;
-  left: 14%;
+  left: 18%;
   top: 170px;
 }
 .block6 {
@@ -70,7 +74,7 @@ body {
   height: 130px;
   width: 175px;
   position: absolute;
-  left: 32%;
+  left: 54%;
   top: 170px;
 }
 .block7 {
@@ -79,7 +83,7 @@ body {
   border-right: 10px solid black;
   border-bottom: 10px solid black;
   height: 220px;
-  width: 70px;
+  width: 73px;
   position: absolute;
   left: 10%;
   top: 300px;
@@ -89,7 +93,7 @@ body {
   columns: black;
   border-right: 10px solid black;
   height: 120px;
-  width: 70px;
+  width: 73px;
   position: absolute;
   left: 10%;
   top: 520px;
@@ -102,42 +106,40 @@ body {
   height: 140px;
   width: 150px;
   position: absolute;
-  left: 14%;
+  left: 18%;
   top: 440px;
 }
 .block10 {
   background-color: antiquewhite;
   columns: black;
   border-left: 10px solid black;
-
   height: 60px;
-  width: 149px;
+  width: 150px;
   position: absolute;
-  left: 14%;
+  left: 18%;
   top: 580px;
 }
 .block11 {
   background-color: grey;
   columns: black;
   border-left: 10px solid black;
-
   border-bottom: 10px solid black;
   height: 70px;
-  width: 147px;
+  width: 144px;
   position: absolute;
-  left: 23%;
+  left: 36%;
   top: 440px;
 }
 .block12 {
   background-color: antiquewhite;
   columns: black;
-  border-left: 10px solid black;
   border-bottom: 10px solid black;
   border-right: 10px solid black;
+  border-left: 10px solid black;
   height: 70px;
-  width: 147px;
+  width: 153px;
   position: absolute;
-  left: 23%;
+  left: 36%;
   top: 510px;
 }
 .block13 {
@@ -149,19 +151,18 @@ body {
   height: 140px;
   width: 93px;
   position: absolute;
-  left: 32%;
+  left: 54%;
   top: 300px;
 }
 .block14 {
   background-color: antiquewhite;
   columns: black;
   border-bottom: 10px solid black;
-
   border-right: 10px solid black;
   height: 140px;
   width: 83px;
   position: absolute;
-  left: 38%;
+  left: 65.5%;
   top: 300px;
 }
 .block15 {
@@ -173,7 +174,7 @@ body {
   height: 70px;
   width: 175px;
   position: absolute;
-  left: 32%;
+  left: 54%;
   top: 440px;
 }
 .block16 {
@@ -185,7 +186,7 @@ body {
   height: 110px;
   width: 175px;
   position: absolute;
-  left: 32%;
+  left: 54%;
   top: 510px;
 }
 .block17 {
@@ -194,9 +195,9 @@ body {
   border-left: 10px solid black;
   border-bottom: 10px solid black;
   height: 40px;
-  width: 139px;
+  width: 144px;
   position: absolute;
-  left: 23%;
+  left: 36%;
   top: 580px;
 }
 .block18 {
@@ -205,9 +206,9 @@ body {
   border-left: 10px solid black;
   border-right: 10px solid black;
   height: 20px;
-  width: 313px;
+  width: 319px;
   position: absolute;
-  left: 23%;
+  left: 36%;
   top: 620px;
 }
 .block19 {
@@ -217,7 +218,7 @@ body {
   height: 400px;
   width: 40px;
   position: absolute;
-  left: 43.4%;
+  left: 75.9%;
   top: 110px;
 }
 .block20 {
@@ -226,6 +227,6 @@ body {
   height: 130px;
   width: 40px;
   position: absolute;
-  left: 43.4%;
+  left: 75.9%;
   top: 510px;
 }
