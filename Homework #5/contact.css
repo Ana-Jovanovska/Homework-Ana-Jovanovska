@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #404040;
+}
+.nav {
+  margin: 0;
+  padding: 0 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+}
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.nav li {
+  display: inline-block;
+}
+.nav a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  color: white;
+  width: 110px;
+  font-size: 20px;
+  display: flex;
+  padding: 25px 25px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  transition: 0.3s ease-in;
+}
+.nav a:hover {
+  background: #404040;
+}
+.banner {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 420px 380px;
+}
+.card-img img {
+  background: url("img/hotel-lobby.avif") center/cover no-repeat;
+  width: 420px;
+  height: 360px;
+  border-radius: 20px;
+}
+
+.contact-form {
+  padding-left: 15px;
+  display: grid;
+  background-color: #404040;
+}
+.form-group {
+  color: black;
+  font-weight: bold;
+  display: grid;
+  gap: 5px;
+  padding: 5px 0;
+}
+
+.form-group .form-control {
+  background-color: #303030;
+  padding: 6px;
+  font-size: 1rem;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
+.form-controls {
+  padding-top: 20px;
+  display: grid;
+  justify-items: flex-end;
+}
+
+.form-controls button {
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #303030;
+  border: 1px solid black;
+}
+
+.form-controls button:hover {
+  background-color: #404040;
+}
